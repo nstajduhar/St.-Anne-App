@@ -1,0 +1,621 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3F269C681CEB591E0033DDE1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F269C671CEB591E0033DDE1 /* AppDelegate.swift */; };
+		3F269C6A1CEB59480033DDE1 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3F269C691CEB59480033DDE1 /* Images.xcassets */; };
+		3F269C6C1CEB59520033DDE1 /* MenuController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F269C6B1CEB59520033DDE1 /* MenuController.swift */; };
+		3F269C721CEB59650033DDE1 /* DeptViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F269C6F1CEB59650033DDE1 /* DeptViewController.swift */; };
+		3F269C741CEB596A0033DDE1 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F269C731CEB596A0033DDE1 /* MapViewController.swift */; };
+		3F269C761CEB59750033DDE1 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3F269C751CEB59750033DDE1 /* Info.plist */; };
+		3F269C781CEB59880033DDE1 /* SidebarMenuTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F269C771CEB59880033DDE1 /* SidebarMenuTests.swift */; };
+		3F269C7A1CEB59900033DDE1 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3F269C791CEB59900033DDE1 /* Info.plist */; };
+		3F269C7E1CEB59A50033DDE1 /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F269C7D1CEB59A50033DDE1 /* SWRevealViewController.m */; };
+		3F8E5F9D1D0070A000C39DD9 /* school.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3F8E5F9C1D0070A000C39DD9 /* school.jpg */; };
+		3F90604A1CEB61E700F03B68 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F269C731CEB596A0033DDE1 /* MapViewController.swift */; };
+		3F90604B1CEB61E700F03B68 /* DeptViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F269C6F1CEB59650033DDE1 /* DeptViewController.swift */; };
+		3F90604C1CEB61E700F03B68 /* MenuController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F269C6B1CEB59520033DDE1 /* MenuController.swift */; };
+		3F90604D1CEB61EC00F03B68 /* SidebarMenuTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F269C771CEB59880033DDE1 /* SidebarMenuTests.swift */; };
+		3F90604E1CEB61F200F03B68 /* SidebarMenu-Bridging-Header.h in Sources */ = {isa = PBXBuildFile; fileRef = 3F269C7B1CEB59A50033DDE1 /* SidebarMenu-Bridging-Header.h */; };
+		3F90604F1CEB61F200F03B68 /* SWRevealViewController.h in Sources */ = {isa = PBXBuildFile; fileRef = 3F269C7C1CEB59A50033DDE1 /* SWRevealViewController.h */; };
+		3F9060501CEB61F200F03B68 /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F269C7D1CEB59A50033DDE1 /* SWRevealViewController.m */; };
+		3F9060511CEB61F200F03B68 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F269C671CEB591E0033DDE1 /* AppDelegate.swift */; };
+		3F9060541CEB625C00F03B68 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F9060521CEB625C00F03B68 /* Main.storyboard */; };
+		3F9060571CEB626800F03B68 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3F9060551CEB626800F03B68 /* LaunchScreen.xib */; };
+		3FD046F71D05C31400DD30DA /* Departments.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FD046F61D05C31400DD30DA /* Departments.swift */; };
+		3FE7E3991CEDFDB7003D1816 /* Welcome.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FE7E3981CEDFDB7003D1816 /* Welcome.swift */; };
+		3FF69C001CFC7F6C00E10D22 /* wooden-christian-cross-clipart-panda-free-clipart-images-AWptIc-clipart.png in Resources */ = {isa = PBXBuildFile; fileRef = 3FF69BFF1CFC7F6C00E10D22 /* wooden-christian-cross-clipart-panda-free-clipart-images-AWptIc-clipart.png */; };
+		3FF69C021CFC84B200E10D22 /* Prayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FF69C011CFC84B200E10D22 /* Prayer.swift */; };
+		3FF69C041CFC875100E10D22 /* Courses.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FF69C031CFC875100E10D22 /* Courses.swift */; };
+		3FF69C061CFC88A300E10D22 /* courses.png in Resources */ = {isa = PBXBuildFile; fileRef = 3FF69C051CFC88A300E10D22 /* courses.png */; };
+		F4702A161A7F342F00E30A3C /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F4702A151A7F342F00E30A3C /* MapKit.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3F269C8B1CEB5D930033DDE1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F47029E81A7F27DB00E30A3C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F47029EF1A7F27DB00E30A3C;
+			remoteInfo = StAnnes;
+		};
+		F4702A061A7F27DC00E30A3C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F47029E81A7F27DB00E30A3C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F47029EF1A7F27DB00E30A3C;
+			remoteInfo = SidebarMenu;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3F269C671CEB591E0033DDE1 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = StAnnes/AppDelegate.swift; sourceTree = SOURCE_ROOT; };
+		3F269C691CEB59480033DDE1 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = StAnnes/Images.xcassets; sourceTree = SOURCE_ROOT; };
+		3F269C6B1CEB59520033DDE1 /* MenuController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MenuController.swift; path = StAnnes/MenuController.swift; sourceTree = SOURCE_ROOT; };
+		3F269C6F1CEB59650033DDE1 /* DeptViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DeptViewController.swift; path = StAnnes/DeptViewController.swift; sourceTree = SOURCE_ROOT; };
+		3F269C731CEB596A0033DDE1 /* MapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MapViewController.swift; path = StAnnes/MapViewController.swift; sourceTree = SOURCE_ROOT; };
+		3F269C751CEB59750033DDE1 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = StAnnes/Info.plist; sourceTree = SOURCE_ROOT; };
+		3F269C771CEB59880033DDE1 /* SidebarMenuTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SidebarMenuTests.swift; path = StAnnesTests/SidebarMenuTests.swift; sourceTree = SOURCE_ROOT; };
+		3F269C791CEB59900033DDE1 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = StAnnesTests/Info.plist; sourceTree = SOURCE_ROOT; };
+		3F269C7B1CEB59A50033DDE1 /* SidebarMenu-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "SidebarMenu-Bridging-Header.h"; path = "StAnnes/SidebarMenu-Bridging-Header.h"; sourceTree = SOURCE_ROOT; };
+		3F269C7C1CEB59A50033DDE1 /* SWRevealViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SWRevealViewController.h; path = StAnnes/SWRevealViewController.h; sourceTree = SOURCE_ROOT; };
+		3F269C7D1CEB59A50033DDE1 /* SWRevealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SWRevealViewController.m; path = StAnnes/SWRevealViewController.m; sourceTree = SOURCE_ROOT; };
+		3F269C861CEB5D930033DDE1 /* St. Annes.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "St. Annes.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F8E5F9C1D0070A000C39DD9 /* school.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = school.jpg; path = "Supporting Files/school.jpg"; sourceTree = SOURCE_ROOT; };
+		3F9060531CEB625C00F03B68 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = StAnnes/Base.lproj/Main.storyboard; sourceTree = SOURCE_ROOT; };
+		3F9060561CEB626800F03B68 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = StAnnes/Base.lproj/LaunchScreen.xib; sourceTree = SOURCE_ROOT; };
+		3FD046F61D05C31400DD30DA /* Departments.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Departments.swift; path = StAnnes/Departments.swift; sourceTree = SOURCE_ROOT; };
+		3FE7E3981CEDFDB7003D1816 /* Welcome.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Welcome.swift; path = StAnnes/Welcome.swift; sourceTree = SOURCE_ROOT; };
+		3FF69BFF1CFC7F6C00E10D22 /* wooden-christian-cross-clipart-panda-free-clipart-images-AWptIc-clipart.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "wooden-christian-cross-clipart-panda-free-clipart-images-AWptIc-clipart.png"; path = "Supporting Files/wooden-christian-cross-clipart-panda-free-clipart-images-AWptIc-clipart.png"; sourceTree = SOURCE_ROOT; };
+		3FF69C011CFC84B200E10D22 /* Prayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Prayer.swift; path = StAnnes/Prayer.swift; sourceTree = SOURCE_ROOT; };
+		3FF69C031CFC875100E10D22 /* Courses.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Courses.swift; path = StAnnes/Courses.swift; sourceTree = SOURCE_ROOT; };
+		3FF69C051CFC88A300E10D22 /* courses.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = courses.png; path = "Supporting Files/courses.png"; sourceTree = SOURCE_ROOT; };
+		F47029F01A7F27DB00E30A3C /* St. Annes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "St. Annes.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F4702A051A7F27DC00E30A3C /* St. Annes.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "St. Annes.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F4702A151A7F342F00E30A3C /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3F269C831CEB5D930033DDE1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F47029ED1A7F27DB00E30A3C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F4702A161A7F342F00E30A3C /* MapKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F4702A021A7F27DC00E30A3C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F47029E71A7F27DB00E30A3C = {
+			isa = PBXGroup;
+			children = (
+				F4702A151A7F342F00E30A3C /* MapKit.framework */,
+				F47029F21A7F27DB00E30A3C /* StAnnes */,
+				F4702A081A7F27DC00E30A3C /* StAnnesTests */,
+				F47029F11A7F27DB00E30A3C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F47029F11A7F27DB00E30A3C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F47029F01A7F27DB00E30A3C /* St. Annes.app */,
+				F4702A051A7F27DC00E30A3C /* St. Annes.xctest */,
+				3F269C861CEB5D930033DDE1 /* St. Annes.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F47029F21A7F27DB00E30A3C /* StAnnes */ = {
+			isa = PBXGroup;
+			children = (
+				F4D750141BD38E56009E1003 /* SWRevealViewController */,
+				3F269C671CEB591E0033DDE1 /* AppDelegate.swift */,
+				3F9060521CEB625C00F03B68 /* Main.storyboard */,
+				3F9060551CEB626800F03B68 /* LaunchScreen.xib */,
+				3F269C691CEB59480033DDE1 /* Images.xcassets */,
+				F47029F31A7F27DB00E30A3C /* Supporting Files */,
+			);
+			name = StAnnes;
+			path = SidebarMenu;
+			sourceTree = "<group>";
+		};
+		F47029F31A7F27DB00E30A3C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3FF69BFF1CFC7F6C00E10D22 /* wooden-christian-cross-clipart-panda-free-clipart-images-AWptIc-clipart.png */,
+				3FF69C051CFC88A300E10D22 /* courses.png */,
+				3FE7E3981CEDFDB7003D1816 /* Welcome.swift */,
+				3FD046F61D05C31400DD30DA /* Departments.swift */,
+				3F269C731CEB596A0033DDE1 /* MapViewController.swift */,
+				3F269C6F1CEB59650033DDE1 /* DeptViewController.swift */,
+				3F269C6B1CEB59520033DDE1 /* MenuController.swift */,
+				3FF69C031CFC875100E10D22 /* Courses.swift */,
+				3FF69C011CFC84B200E10D22 /* Prayer.swift */,
+				3F8E5F9C1D0070A000C39DD9 /* school.jpg */,
+				3F269C751CEB59750033DDE1 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F4702A081A7F27DC00E30A3C /* StAnnesTests */ = {
+			isa = PBXGroup;
+			children = (
+				3F269C771CEB59880033DDE1 /* SidebarMenuTests.swift */,
+				F4702A091A7F27DC00E30A3C /* Supporting Files */,
+			);
+			name = StAnnesTests;
+			path = SidebarMenuTests;
+			sourceTree = "<group>";
+		};
+		F4702A091A7F27DC00E30A3C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3F269C791CEB59900033DDE1 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F4D750141BD38E56009E1003 /* SWRevealViewController */ = {
+			isa = PBXGroup;
+			children = (
+				3F269C7B1CEB59A50033DDE1 /* SidebarMenu-Bridging-Header.h */,
+				3F269C7C1CEB59A50033DDE1 /* SWRevealViewController.h */,
+				3F269C7D1CEB59A50033DDE1 /* SWRevealViewController.m */,
+			);
+			name = SWRevealViewController;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3F269C851CEB5D930033DDE1 /* St. AnnesUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3F269C8D1CEB5D930033DDE1 /* Build configuration list for PBXNativeTarget "St. AnnesUITests" */;
+			buildPhases = (
+				3F269C821CEB5D930033DDE1 /* Sources */,
+				3F269C831CEB5D930033DDE1 /* Frameworks */,
+				3F269C841CEB5D930033DDE1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3F269C8C1CEB5D930033DDE1 /* PBXTargetDependency */,
+			);
+			name = "St. AnnesUITests";
+			productName = StAnnesUITests;
+			productReference = 3F269C861CEB5D930033DDE1 /* St. Annes.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		F47029EF1A7F27DB00E30A3C /* St. Annes */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F4702A0F1A7F27DC00E30A3C /* Build configuration list for PBXNativeTarget "St. Annes" */;
+			buildPhases = (
+				F47029EC1A7F27DB00E30A3C /* Sources */,
+				F47029ED1A7F27DB00E30A3C /* Frameworks */,
+				F47029EE1A7F27DB00E30A3C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "St. Annes";
+			productName = SidebarMenu;
+			productReference = F47029F01A7F27DB00E30A3C /* St. Annes.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F4702A041A7F27DC00E30A3C /* St. AnnesTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F4702A121A7F27DC00E30A3C /* Build configuration list for PBXNativeTarget "St. AnnesTests" */;
+			buildPhases = (
+				F4702A011A7F27DC00E30A3C /* Sources */,
+				F4702A021A7F27DC00E30A3C /* Frameworks */,
+				F4702A031A7F27DC00E30A3C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F4702A071A7F27DC00E30A3C /* PBXTargetDependency */,
+			);
+			name = "St. AnnesTests";
+			productName = SidebarMenuTests;
+			productReference = F4702A051A7F27DC00E30A3C /* St. Annes.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F47029E81A7F27DB00E30A3C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = StAnnes;
+				TargetAttributes = {
+					3F269C851CEB5D930033DDE1 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = F47029EF1A7F27DB00E30A3C;
+					};
+					F47029EF1A7F27DB00E30A3C = {
+						CreatedOnToolsVersion = 6.1.1;
+						DevelopmentTeam = 44FLD4EDZ3;
+						SystemCapabilities = {
+							com.apple.Maps.iOS = {
+								enabled = 1;
+							};
+						};
+					};
+					F4702A041A7F27DC00E30A3C = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = F47029EF1A7F27DB00E30A3C;
+					};
+				};
+			};
+			buildConfigurationList = F47029EB1A7F27DB00E30A3C /* Build configuration list for PBXProject "St. Annes" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F47029E71A7F27DB00E30A3C;
+			productRefGroup = F47029F11A7F27DB00E30A3C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F47029EF1A7F27DB00E30A3C /* St. Annes */,
+				F4702A041A7F27DC00E30A3C /* St. AnnesTests */,
+				3F269C851CEB5D930033DDE1 /* St. AnnesUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3F269C841CEB5D930033DDE1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F47029EE1A7F27DB00E30A3C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F9060571CEB626800F03B68 /* LaunchScreen.xib in Resources */,
+				3F8E5F9D1D0070A000C39DD9 /* school.jpg in Resources */,
+				3FF69C061CFC88A300E10D22 /* courses.png in Resources */,
+				3F269C761CEB59750033DDE1 /* Info.plist in Resources */,
+				3F9060541CEB625C00F03B68 /* Main.storyboard in Resources */,
+				3F269C6A1CEB59480033DDE1 /* Images.xcassets in Resources */,
+				3FF69C001CFC7F6C00E10D22 /* wooden-christian-cross-clipart-panda-free-clipart-images-AWptIc-clipart.png in Resources */,
+				3F269C7A1CEB59900033DDE1 /* Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F4702A031A7F27DC00E30A3C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3F269C821CEB5D930033DDE1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F90604E1CEB61F200F03B68 /* SidebarMenu-Bridging-Header.h in Sources */,
+				3F90604F1CEB61F200F03B68 /* SWRevealViewController.h in Sources */,
+				3F9060501CEB61F200F03B68 /* SWRevealViewController.m in Sources */,
+				3F9060511CEB61F200F03B68 /* AppDelegate.swift in Sources */,
+				3F90604D1CEB61EC00F03B68 /* SidebarMenuTests.swift in Sources */,
+				3F90604A1CEB61E700F03B68 /* MapViewController.swift in Sources */,
+				3F90604B1CEB61E700F03B68 /* DeptViewController.swift in Sources */,
+				3F90604C1CEB61E700F03B68 /* MenuController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F47029EC1A7F27DB00E30A3C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3FF69C041CFC875100E10D22 /* Courses.swift in Sources */,
+				3F269C781CEB59880033DDE1 /* SidebarMenuTests.swift in Sources */,
+				3F269C6C1CEB59520033DDE1 /* MenuController.swift in Sources */,
+				3FD046F71D05C31400DD30DA /* Departments.swift in Sources */,
+				3F269C681CEB591E0033DDE1 /* AppDelegate.swift in Sources */,
+				3F269C7E1CEB59A50033DDE1 /* SWRevealViewController.m in Sources */,
+				3F269C721CEB59650033DDE1 /* DeptViewController.swift in Sources */,
+				3FF69C021CFC84B200E10D22 /* Prayer.swift in Sources */,
+				3F269C741CEB596A0033DDE1 /* MapViewController.swift in Sources */,
+				3FE7E3991CEDFDB7003D1816 /* Welcome.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F4702A011A7F27DC00E30A3C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3F269C8C1CEB5D930033DDE1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F47029EF1A7F27DB00E30A3C /* St. Annes */;
+			targetProxy = 3F269C8B1CEB5D930033DDE1 /* PBXContainerItemProxy */;
+		};
+		F4702A071A7F27DC00E30A3C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F47029EF1A7F27DB00E30A3C /* St. Annes */;
+			targetProxy = F4702A061A7F27DC00E30A3C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3F9060521CEB625C00F03B68 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3F9060531CEB625C00F03B68 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3F9060551CEB626800F03B68 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3F9060561CEB626800F03B68 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3F269C8E1CEB5D930033DDE1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NONNULL = YES;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = StAnnesUITests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = StAnnes.StAnnesUITests;
+				PRODUCT_NAME = "St. Annes";
+				TEST_TARGET_NAME = StAnnes;
+			};
+			name = Debug;
+		};
+		3F269C8F1CEB5D930033DDE1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NONNULL = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = StAnnesUITests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = StAnnes.StAnnesUITests;
+				PRODUCT_NAME = "St. Annes";
+				TEST_TARGET_NAME = StAnnes;
+			};
+			name = Release;
+		};
+		F4702A0D1A7F27DC00E30A3C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F4702A0E1A7F27DC00E30A3C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F4702A101A7F27DC00E30A3C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-1";
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = StAnnes/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wecdsb.StAnnes;
+				PRODUCT_NAME = "St. Annes";
+				SWIFT_OBJC_BRIDGING_HEADER = "StAnnes/SidebarMenu-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F4702A111A7F27DC00E30A3C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-1";
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = StAnnes/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wecdsb.StAnnes;
+				PRODUCT_NAME = "St. Annes";
+				SWIFT_OBJC_BRIDGING_HEADER = "StAnnes/SidebarMenu-Bridging-Header.h";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		F4702A131A7F27DC00E30A3C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = SidebarMenuTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.appcoda.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "St. Annes";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/St. Annes.app/St. Annes";
+			};
+			name = Debug;
+		};
+		F4702A141A7F27DC00E30A3C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = SidebarMenuTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.appcoda.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "St. Annes";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/St. Annes.app/St. Annes";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3F269C8D1CEB5D930033DDE1 /* Build configuration list for PBXNativeTarget "St. AnnesUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F269C8E1CEB5D930033DDE1 /* Debug */,
+				3F269C8F1CEB5D930033DDE1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F47029EB1A7F27DB00E30A3C /* Build configuration list for PBXProject "St. Annes" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F4702A0D1A7F27DC00E30A3C /* Debug */,
+				F4702A0E1A7F27DC00E30A3C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F4702A0F1A7F27DC00E30A3C /* Build configuration list for PBXNativeTarget "St. Annes" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F4702A101A7F27DC00E30A3C /* Debug */,
+				F4702A111A7F27DC00E30A3C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F4702A121A7F27DC00E30A3C /* Build configuration list for PBXNativeTarget "St. AnnesTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F4702A131A7F27DC00E30A3C /* Debug */,
+				F4702A141A7F27DC00E30A3C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F47029E81A7F27DB00E30A3C /* Project object */;
+}
