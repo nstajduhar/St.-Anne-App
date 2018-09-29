@@ -13,7 +13,8 @@ class ViewController: UIViewController {
     //Defining the menu button, extra button (Currently inactave but can be set up), and defines the Webview on the welcome page
     @IBOutlet var menuButton:UIBarButtonItem!
     @IBOutlet var extraButton:UIBarButtonItem!
-    @IBOutlet weak var mainWebview: UIWebView!
+    @IBOutlet weak var mainWebview: UIWebView?
+    @IBOutlet weak var principalblog: UIWebView?
  
 
     
@@ -28,9 +29,13 @@ class ViewController: UIViewController {
         }
         
         //Sets the URL for the welcome webview
-        let main = NSURL(string: "http://sahnews.blogspot.ca")
+        let main = NSURL(string: "http://www.saintannesaints.com")
         let requestObj = NSURLRequest(URL: main!);
-        mainWebview.loadRequest(requestObj);
+        mainWebview?.loadRequest(requestObj);
+        
+        let principal = NSURL(string: "http://sahnews.blogspot.ca")
+        let requestObj1 = NSURLRequest(URL: principal!);
+        principalblog?.loadRequest(requestObj1);
         
         /* HTML in UIWebView
         let main = NSURL(fileURLWithPath: "yourfile.html")

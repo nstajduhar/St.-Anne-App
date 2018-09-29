@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		21E3B3FFAE6F530333E72604 /* Pods_St__Annes.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 744EAF8ADEA8F892D8D63956 /* Pods_St__Annes.framework */; };
+		3F18906E1D1042D300E5CB38 /* Calendar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F18906D1D1042D300E5CB38 /* Calendar.swift */; };
 		3F269C681CEB591E0033DDE1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F269C671CEB591E0033DDE1 /* AppDelegate.swift */; };
 		3F269C6A1CEB59480033DDE1 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3F269C691CEB59480033DDE1 /* Images.xcassets */; };
 		3F269C6C1CEB59520033DDE1 /* MenuController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F269C6B1CEB59520033DDE1 /* MenuController.swift */; };
@@ -54,6 +56,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		10B21F7BC6D972D5B52DE0DD /* Pods-St. Annes.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-St. Annes.release.xcconfig"; path = "Pods/Target Support Files/Pods-St. Annes/Pods-St. Annes.release.xcconfig"; sourceTree = "<group>"; };
+		3F18906D1D1042D300E5CB38 /* Calendar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Calendar.swift; path = StAnnes/Calendar.swift; sourceTree = SOURCE_ROOT; };
+		3F1BA5921D0B051A000AD390 /* St. Annes.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = "St. Annes.entitlements"; sourceTree = "<group>"; };
 		3F269C671CEB591E0033DDE1 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = StAnnes/AppDelegate.swift; sourceTree = SOURCE_ROOT; };
 		3F269C691CEB59480033DDE1 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = StAnnes/Images.xcassets; sourceTree = SOURCE_ROOT; };
 		3F269C6B1CEB59520033DDE1 /* MenuController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MenuController.swift; path = StAnnes/MenuController.swift; sourceTree = SOURCE_ROOT; };
@@ -75,6 +80,8 @@
 		3FF69C011CFC84B200E10D22 /* Prayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Prayer.swift; path = StAnnes/Prayer.swift; sourceTree = SOURCE_ROOT; };
 		3FF69C031CFC875100E10D22 /* Courses.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Courses.swift; path = StAnnes/Courses.swift; sourceTree = SOURCE_ROOT; };
 		3FF69C051CFC88A300E10D22 /* courses.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = courses.png; path = "Supporting Files/courses.png"; sourceTree = SOURCE_ROOT; };
+		744EAF8ADEA8F892D8D63956 /* Pods_St__Annes.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_St__Annes.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7E6BF7DE8F3321A1D64244CD /* Pods-St. Annes.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-St. Annes.debug.xcconfig"; path = "Pods/Target Support Files/Pods-St. Annes/Pods-St. Annes.debug.xcconfig"; sourceTree = "<group>"; };
 		F47029F01A7F27DB00E30A3C /* St. Annes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "St. Annes.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F4702A051A7F27DC00E30A3C /* St. Annes.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "St. Annes.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F4702A151A7F342F00E30A3C /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
@@ -93,6 +100,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F4702A161A7F342F00E30A3C /* MapKit.framework in Frameworks */,
+				21E3B3FFAE6F530333E72604 /* Pods_St__Annes.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -106,13 +114,33 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		F47029E71A7F27DB00E30A3C = {
+		586A1B43BD6733B2C930DBAB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7E6BF7DE8F3321A1D64244CD /* Pods-St. Annes.debug.xcconfig */,
+				10B21F7BC6D972D5B52DE0DD /* Pods-St. Annes.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		70AD9D17D61E8C04965DA4B6 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
 				F4702A151A7F342F00E30A3C /* MapKit.framework */,
+				744EAF8ADEA8F892D8D63956 /* Pods_St__Annes.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F47029E71A7F27DB00E30A3C = {
+			isa = PBXGroup;
+			children = (
+				3F1BA5921D0B051A000AD390 /* St. Annes.entitlements */,
 				F47029F21A7F27DB00E30A3C /* StAnnes */,
 				F4702A081A7F27DC00E30A3C /* StAnnesTests */,
 				F47029F11A7F27DB00E30A3C /* Products */,
+				70AD9D17D61E8C04965DA4B6 /* Frameworks */,
+				586A1B43BD6733B2C930DBAB /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -146,6 +174,7 @@
 				3FF69BFF1CFC7F6C00E10D22 /* wooden-christian-cross-clipart-panda-free-clipart-images-AWptIc-clipart.png */,
 				3FF69C051CFC88A300E10D22 /* courses.png */,
 				3FE7E3981CEDFDB7003D1816 /* Welcome.swift */,
+				3F18906D1D1042D300E5CB38 /* Calendar.swift */,
 				3FD046F61D05C31400DD30DA /* Departments.swift */,
 				3F269C731CEB596A0033DDE1 /* MapViewController.swift */,
 				3F269C6F1CEB59650033DDE1 /* DeptViewController.swift */,
@@ -211,9 +240,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F4702A0F1A7F27DC00E30A3C /* Build configuration list for PBXNativeTarget "St. Annes" */;
 			buildPhases = (
+				22371A900A31DBA1B6ED4EDC /* 📦 Check Pods Manifest.lock */,
 				F47029EC1A7F27DB00E30A3C /* Sources */,
 				F47029ED1A7F27DB00E30A3C /* Frameworks */,
 				F47029EE1A7F27DB00E30A3C /* Resources */,
+				4DC458D727DE22EAEDF4E4E7 /* 📦 Embed Pods Frameworks */,
+				11836D99C3D3DD992A76E5B9 /* 📦 Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -260,6 +292,9 @@
 						CreatedOnToolsVersion = 6.1.1;
 						DevelopmentTeam = 44FLD4EDZ3;
 						SystemCapabilities = {
+							com.apple.InterAppAudio = {
+								enabled = 0;
+							};
 							com.apple.Maps.iOS = {
 								enabled = 1;
 							};
@@ -323,6 +358,54 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		11836D99C3D3DD992A76E5B9 /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-St. Annes/Pods-St. Annes-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		22371A900A31DBA1B6ED4EDC /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		4DC458D727DE22EAEDF4E4E7 /* 📦 Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-St. Annes/Pods-St. Annes-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		3F269C821CEB5D930033DDE1 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -349,6 +432,7 @@
 				3FD046F71D05C31400DD30DA /* Departments.swift in Sources */,
 				3F269C681CEB591E0033DDE1 /* AppDelegate.swift in Sources */,
 				3F269C7E1CEB59A50033DDE1 /* SWRevealViewController.m in Sources */,
+				3F18906E1D1042D300E5CB38 /* Calendar.swift in Sources */,
 				3F269C721CEB59650033DDE1 /* DeptViewController.swift in Sources */,
 				3FF69C021CFC84B200E10D22 /* Prayer.swift in Sources */,
 				3F269C741CEB596A0033DDE1 /* MapViewController.swift in Sources */,
@@ -509,6 +593,7 @@
 		};
 		F4702A101A7F27DC00E30A3C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7E6BF7DE8F3321A1D64244CD /* Pods-St. Annes.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-1";
 				CLANG_ENABLE_MODULES = YES;
@@ -526,6 +611,7 @@
 		};
 		F4702A111A7F27DC00E30A3C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 10B21F7BC6D972D5B52DE0DD /* Pods-St. Annes.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-1";
 				CLANG_ENABLE_MODULES = YES;
